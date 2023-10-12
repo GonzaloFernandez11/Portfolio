@@ -36,6 +36,7 @@ nav {
 .nav-logo {
     /* border: solid yellow; */
     max-width: 200px;
+    z-index: -100;
 }
 
 .nav-links {
@@ -93,8 +94,9 @@ nav {
 
 .blur {
     position: absolute;
-    margin-top: 5rem;
-    box-shadow: 0 0 1000px 45px #1d4ed8;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    box-shadow: 0 0 1000px 55px #0f4cf3;
     z-index: -100;
 }
 
@@ -152,7 +154,136 @@ header .image::before {
     z-index: -100;
 }
 
-header .image img {
-    max-width: 600px;
-    margin: auto;
+section .header {
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 600;
 }
+
+.features {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.features .card {
+    background-color: #27272a;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.features .card:hover {
+    background-color: #323232;
+    border-color: #fff;
+    transform: scale(1.05);
+}
+
+.features .card span {
+    display: inline-block;
+    background-color: #5117af;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.features .card h4 {
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .card p {
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.cards-container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.cards {
+    position: relative;
+    width: 350px;
+    height: 230px;
+    /* aspect-ratio: 16/9; */
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cards img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cards:hover .card__content {
+    transform: rotateX(0deg);
+    backdrop-filter: blur(5px);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .card__description {
+    margin: 10px 0 10px;
+    font-size: 0.9rem;
+    color: #ddd8d8;
+    line-height: 1.4;
+  }
+  
+  .card__button {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1d4ed8;
+    font-family: 'Poppins';
+    cursor: pointer;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+  } 
+  
+  .card__button:hover {
+    background-color: #1e40af;
+    color: #fff;
+    border: 1px solid #fff;
+  }
