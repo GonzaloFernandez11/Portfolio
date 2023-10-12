@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/briefcase.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Personal Portfolio</title>
 </head>
 
-<body>
+<body id="home">
 
     <nav>
         <div class="nav-logo">
@@ -18,17 +19,18 @@
         </div>
 
         <ul class="nav-links">
-            <li class="link"><a href="#">Home</a></li>
-            <li class="link"><a href="#">About Me</a></li>
-            <li class="link"><a href="#">Targets</a></li>
-            <li class="link"><a href="#">Projects</a></li>
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About Me</a></li>
+            <li class="link"><a href="#targets">Targets</a></li>
+            <li class="link"><a href="#projects">Projects</a></li>
         </ul>
 
-        <button class="btn">Get in Touch</button>
+        <button class="btn"><a href="#contact">Get in Touch</a></button>
     </nav>
 
-    <header class="container">
+    <header class="container" id="about">
         <div class="content">
+            <span class="blur"></span>
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>Pursuing excellence in the world of development</h4>
@@ -41,7 +43,7 @@
         </div>
     </header>
 
-    <section class="container">
+    <section class="container" id="targets">
         <h2 class="header">MY TARGETS <i class="ri-open-arm-line"></i></h2>
         <div class="features">
             <div class="card">
@@ -79,7 +81,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="projects">
         <h2 class="header">MY PROJECTS</h2>
 
       <div class="cards-container">
@@ -88,18 +90,18 @@
             <div class="card__content">
               <h4 class="card__title">MoviePlay</h4>
               <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-              <button class="card__button">Live Demo</button>
-              <button class="card__button secondary">Source Code</button>
+              <button class="card__button"><a href="https://luiggi2092.github.io/MoviePlayFront/" target="_blank">Live Demo</a></button>
+              <button class="card__button secondary"><a href="https://github.com/caparada1366/MoviePlay_Backend" target="_blank">Source Code</a></button>
             </div>
           </div>
 
           <div class="cards">
-            <img src="images/MoviesPlay.png"/>
+            <img src="images/Dog-App.png"/>
             <div class="card__content">
               <h4 class="card__title">Dogs-App</h4>
               <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
               <button class="card__button">Live Demo</button>
-              <button class="card__button secondary">Source Code</button>
+              <button class="card__button secondary"><a href="https://github.com/GonzaloFernandez11/PI-DOGS" target="_blank">Source Code</a></button>
             </div>
           </div>
 
@@ -114,6 +116,28 @@
           </div>
       </div>
     </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+
+            <h2 class="header">CONTACT ME TO EXPLORE POTENTIAL COLLABORATIONS:</h2>
+
+            <div class="socials" id="contact">
+                <a href="https://www.linkedin.com/in/gonzalo-ezequiel-fernandez" target="_blank"><i class="ri-linkedin-fill"></i></a>
+                <a href="https://github.com/GonzaloFernandez11" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/gonza_ezee/" target="_blank"><i class="ri-instagram-line"></i></a>
+                <i class="ri-mail-line"></i><p><i class="ri-arrow-right-line"></i> email: ezekyel34@gmail.com</p>
+            </div>
+            <p class="frase">Let's collaborate for a better world through innovation.</p>
+        </div>
+
+        <div class="up">
+            <a href="#home"><i class="ri-arrow-up-line"></i></a>
+        </div>
+    </footer>
     
     <script src="script.js"></script>
 </body>
