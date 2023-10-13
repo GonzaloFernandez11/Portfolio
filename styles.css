@@ -51,6 +51,7 @@ nav {
     position: relative;
     padding-bottom: 0.75rem;
     color: #fff;
+    cursor: pointer;
 }
 
 .link a::after {
@@ -61,13 +62,13 @@ nav {
     width: 0;
     bottom: 0;
     left: 0;
-    /* background-color: #1d4ed8; */
     background-color: #8f1edb;
     transition: all 0.3s ease;
 }
 
 .link a:hover::after {
     width: 100%;
+    cursor: pointer;
 }
 
 .btn {
@@ -380,6 +381,7 @@ footer .column .socials .ri-arrow-right-line {
 .up .ri-arrow-up-line:hover {
     background-color: #1d4ed8;
     border-color: #1d4ed8;
+    cursor: pointer;
 }
 
 @media (width < 900px) {
