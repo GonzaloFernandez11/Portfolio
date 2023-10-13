@@ -384,6 +384,16 @@ footer .column .socials .ri-arrow-right-line {
     cursor: pointer;
 }
 
+@media (width < 1200px) {
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+    .cards {
+        margin: auto;
+    }
+}
+
 @media (width < 900px) {
     .nav-links{
         display: none;
@@ -420,5 +430,14 @@ footer .column .socials .ri-arrow-right-line {
     }
     footer .column .socials .ri-arrow-right-line {
         margin-left: -0.5rem;
+    }
+}
+
+@media (width < 500px) {
+    footer .column .socials .ri-mail-line {
+        display: none;
+    }
+    footer .column .socials .ri-arrow-right-line {
+        display: none;
     }
 }
