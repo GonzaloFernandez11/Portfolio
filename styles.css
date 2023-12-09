@@ -86,15 +86,36 @@ nav {
     background-color: #1e40af;
 }
 
+.btnn {
+    padding: 0.5rem 1rem;
+    font-size: 0.80rem;
+    font-family: 'Poppins';
+    color: #fff;
+    background-color: #1d4ed8;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btnn:hover {
+    background-color: #1e40af;
+}
+
 .btn a {
     color: #fff;
+}
+
+.btncontainer {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 2rem;
 }
 
 .container {
     /* border: solid white; */
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
 }
 
 .blur {
