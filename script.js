@@ -69,6 +69,8 @@ const translations = {
         "Dogs-App es una aplicación web diseñada para proporcionar información detallada sobre muchas razas en un formato de tarjeta con funciones como filtros y un formulario de creación.": "Dogs-App is a web application designed to provide detailed information about many breeds in an easily readable card format with features such as filters and a form for create a new breed",
 
         "Glass Gradient es una aplicación web que te permite generar código personalizado para efectos de vidrio translúcido, permitiéndote elegir el color y la intensidad deseados con facilidad.": "Glass Gradient is a web application that allows you to generate custom code for translucent glass effects, letting you choose your desired color and intensity with ease.",
+    
+        "Chat-App es una aplicación de chat diseñada para que te comuniques con tus amigos. Puedes registrarte, iniciar sesión, añadir amigos, bloquear o desbloquear usuarios, y enviar imágenes y emojis de manera sencilla.": "Chat-App is a chat application designed for you to communicate with your friends. You can register, log in, add friends, block or unblock users, and easily send images and emojis.",
     },
     "es": {
         "Pursuing excellence in the world of development": "Persiguiendo la excelencia en el mundo del desarrollo",
@@ -105,6 +107,8 @@ const translations = {
         "Dogs-App is a web application designed to provide detailed information about many breeds in an easily readable card format with features such as filters and a form for create a new breed": "Dogs-App es una aplicación web diseñada para proporcionar información detallada sobre muchas razas en un formato de tarjeta con funciones como filtros y un formulario de creación.",
 
         "Glass Gradient is a web application that allows you to generate custom code for translucent glass effects, letting you choose your desired color and intensity with ease.": "Glass Gradient es una aplicación web que te permite generar código personalizado para efectos de vidrio translúcido, permitiéndote elegir el color y la intensidad deseados con facilidad.",
+    
+        "Chat-App is a chat application designed for you to communicate with your friends. You can register, log in, add friends, block or unblock users, and easily send images and emojis.": "Chat-App es una aplicación de chat diseñada para que te comuniques con tus amigos. Puedes registrarte, iniciar sesión, añadir amigos, bloquear o desbloquear usuarios, y enviar imágenes y emojis de manera sencilla.",
     }   
 }
 
