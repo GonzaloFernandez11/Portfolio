@@ -184,11 +184,6 @@ header .content h3 {
     line-height: 2rem;
 }
 
-/*header .content h1 span {
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff;
-}*/
-
 header .content h1 .name {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
